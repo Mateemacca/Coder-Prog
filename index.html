@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Pagina CON CSS-->
+<body>
+
+
+    <div class="container">
+        <header>
+            <nav>
+                <div class="Logo">
+                    <a href="index.html"><img
+                            src="snkrslogo.png"
+                            alt="Logo"></a>
+                </div>
+                <ul class="navbar">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pages/about-us.html">About Us</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="pages/products.html">Products</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder=' "Air Jordan 1 Panda"'>
+                <div class="lupaSearch">
+                    <a href=""><img src="https://cdn-icons-png.flaticon.com/512/25/25313.png" alt="" srcset=""></a>
+                </div>
+            </div>
+        </header>
+
+        <!--CAROUSEL-->
+       
+        <section class="carousel">
+            <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" class="boton"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://nikearprod.vtexassets.com/arquivos/ids/173023-1200-1200?v=638088943203030000&width=1200&height=1200&aspect=true" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://nikearprod.vtexassets.com/arquivos/ids/173000-1200-1200?v=638088942912100000&width=1200&height=1200&aspect=true" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://nikearprod.vtexassets.com/arquivos/ids/172981-1200-1200?v=638088942679700000&width=1200&height=1200&aspect=true" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <section class="new-products flex-wrap">
+            <h3>NEW PRODUCTS</h3>
+            <div class="jordanContainer">
+                <div class="jordans">               <!--La segunda foto es la que te redirige a la pagina "air jordan 1 red"-->
+                    <a href="">
+                        <img src="https://essential.vtexassets.com/arquivos/ids/588541-1200-auto?v=637932487569730000&width=1200&height=auto&aspect=true"
+                            alt="">
+                    </a>
+                </div>
+                <div class="jordans">
+                    <a href="pages/jordan-1-red.html">
+                        <img src="https://essential.vtexassets.com/arquivos/ids/734031-1200-auto?v=638126054620270000&width=1200&height=auto&aspect=true"
+                            alt="">
+                    </a>
+                </div>
+                <div class="jordans">
+                    <a href="">
+                        <img src="https://essential.vtexassets.com/arquivos/ids/734073-1200-auto?v=638126054978200000&width=1200&height=auto&aspect=true"
+                            alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="newsletter-container">
+           <h3>SUBSCRIBE TO THE NEWSLETTER</h3> 
+            <div class="buscador">
+                <input type="email" placeholder="example@gmail.com">
+                <button type="submit">Subscribe</button>
+            </div>
+        </section>
+    </div>
+    
+    <footer class="piedepagina">
+        <ul class="footer-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/about-us.html">About Us</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a href="pages/products.html">Products</a></li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

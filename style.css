@@ -1,0 +1,562 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: auto;
+    background-color: #f5f5f5f1;;
+}
+
+.container{
+    max-width: 950px;
+    margin: 0px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px ;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.Logo img{
+    width: 100px;
+    border-radius: 5px;   
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s all ease-in-out;
+    padding: 5px 7px;
+    border-radius: 3px;
+    border:1px solid #a5a5a5;
+}
+
+.navbar li a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.search input{
+width: 1000px;
+height: 30px;
+}
+
+.lupaSearch img{
+    width: 16px;
+}
+
+/* .carousel {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 100px ;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.carousel{
+    border: solid black 2px;
+} */
+
+.new-products h3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+.jordans img{
+    width: 300px;
+    border: solid black 1.5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
+    
+    transition:  0.3s cubic-bezier(0.21, 0.89, 0.55, 0.97);
+}
+
+.jordans img:hover{
+    transform: scale(1.05)
+    
+
+}
+
+.jordanContainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.buscador {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buscador input {
+    margin-right: 5px;
+    width: 400px;
+    font-size: 20px;
+  }
+  
+  .buscador button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s ease-in-out;
+  }
+
+  .buscador button:hover{
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 4px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .newsletter-container {
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+  }
+  
+  .newsletter-container h3 {
+    margin: 0px 0px 10px 0px;
+  }
+
+.piedepagina {
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    left: 0px;
+    height:  120px;
+    padding: 10px 0px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s all ease-in-out;
+    padding: 5px 7px;
+    border-radius: 2px;
+}
+
+.footer-links li a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+
+/* CSS PAGINA jordan-1-red.html */
+
+
+
+.product {
+     margin-top: 100px;
+   display: flex;
+   align-items: center;
+   border: 1.5px solid black;
+   margin-bottom: 121px;
+   border-radius: 3px;
+}
+
+
+.jordan1red {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    /* box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6); */
+}
+
+.product-description {
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 100px; */
+    /* box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6); */
+    
+    
+}
+
+.product-description h2 {
+   
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size:40px;
+}
+.product-description h3 {
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:32px;
+ }
+
+  .stars-calification {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.stars-calification p {
+  text-align: center;
+}
+
+.stars-calification label {
+  font-size: 35px;
+}
+
+.input-estrella[type="radio"]  {
+ display:none ;
+}
+ 
+.star-label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.star-label:hover,
+.star-label:hover ~ .star-label {
+  color: orange;
+  cursor: pointer;
+}
+
+
+
+
+input[type="radio"] [name=estrellas]:checked ~ label {
+  color: orange;
+} 
+
+
+
+.buy-button {
+    /* padding: 10px 217.5px; */
+    padding: 5px 200px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+  } 
+
+  .buy-button:hover {
+    background-color: #292828;
+  }
+
+  .talles {
+    margin-top: 135px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+    .talles h4 {
+        font-size:50px ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+form {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+#carouselExampleIndicators {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
+}
+
+
+
+#carouselExampleIndicators img {
+    width: 500px;
+    height:500px;
+    border-radius: 10px;
+    
+}
+
+
+.carousel {
+    margin: 0 auto; /* Esto centra el carrusel horizontalmente */
+    margin-top: 30px;
+    
+  }
+
+
+.carousel-control-next button:hover {
+    background-color: #0000000d;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+.carousel-indicators .active {
+    opacity: 1;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: transparent;
+    border: 0;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: transparent;
+    border: 0;
+}
+
+
+
+
+
+    .product-img-container {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 5px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "foto-1 foto-2 foto-3"
+          "foto-4 foto-5 foto-6"
+          "foto-7 foto-8 foto-9";
+
+      }
+      
+      .foto-1 { grid-area: foto-1; }
+      
+      .foto-2 { grid-area: foto-2; }
+      
+      .foto-3 { grid-area: foto-3; }
+      
+      .foto-4 { grid-area: foto-4; }
+      
+      .foto-5 { grid-area: foto-5; }
+      
+      .foto-6 { grid-area: foto-6; }
+      
+      .foto-7 { grid-area: foto-7; }
+      
+      .foto-8 { grid-area: foto-8; }
+      
+      .foto-9 { grid-area: foto-9; }
+      
+
+      .foto-1, .foto-2, .foto-3, .foto-4, .foto-5, .foto-6, .foto-7, .foto-8, .foto-9  {
+        width: 315px;
+       
+      }
+
+      .text-products h3 {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        padding: 10px 0 10px 0;
+
+      }
+
+      .products-container {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px 20px 0px;
+        align-items: center;
+      }
+      
+      .product-div {
+        padding-bottom: 50px;
+        border: 0.5px solid rgba(62, 61, 61, 0.375);
+        border-radius: 5px;
+        background-color: white;
+
+      }
+
+      .product-div img{
+        border-radius: 5px;
+      }
+
+   .product-name p {
+    
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+   }
+   .product-name h3 {
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+   }
+
+   
+
+
+   .buy-button-products { 
+    
+    padding: 10px 90px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+   }
+   .buy-button-products:hover {
+    background-color: #292828;
+  }
+
+
+
+#carouselExample {
+    width: 440px;
+    height: 480px;
+}
+
+
+/* styles de contact.html */
+
+
+.contact p, h1{
+    font-size: 90px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.socials-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.socials{
+    margin: 70px 0px 70px 0px;
+
+}
+.socials li {
+    display: inline;
+    margin: 0px 50px 0px 50px;
+}
+
+.socials li img {
+    width: 150px;
+}
+
+.socials ul li {
+    gap: 500px;
+}
+
+.about-us-text p,.about-us-text h1{
+   font-size: 65px;
+   text-align: center;
+}
