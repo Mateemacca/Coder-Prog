@@ -15,9 +15,10 @@
 <!-- Pagina CON CSS-->
 <body>
 
+    <div class="page-container">
 
-    <div class="container">
-        <header>
+        <div class="header-container">
+        <header class="header-page">
             <nav>
                 <div class="Logo">
                     <a href="index.html"><img
@@ -30,7 +31,9 @@
                     <li><a href="pages/contact.html">Contact</a></li>
                     <li><a href="pages/products.html">Products</a></li>
                 </ul>
+                
             </nav>
+        <div>
             <div class="search">
                 <input type="text" placeholder=' "Air Jordan 1 Panda"'>
                 <div class="lupaSearch">
@@ -38,10 +41,11 @@
                 </div>
             </div>
         </header>
+    </div>
 
         <!--CAROUSEL-->
        
-        <section class="carousel">
+    <div class="carousel">
             <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" class="boton"></button>
@@ -68,9 +72,9 @@
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-        </section>
+        </div>
 
-        <section class="new-products flex-wrap">
+        <div class="new-products">
             <h3>NEW PRODUCTS</h3>
             <div class="jordanContainer">
                 <div class="jordans">               <!--La segunda foto es la que te redirige a la pagina "air jordan 1 red"-->
@@ -78,32 +82,34 @@
                         <img src="https://essential.vtexassets.com/arquivos/ids/588541-1200-auto?v=637932487569730000&width=1200&height=auto&aspect=true"
                             alt="">
                     </a>
-                </div>
-                <div class="jordans">
+               
+                
                     <a href="pages/jordan-1-red.html">
                         <img src="https://essential.vtexassets.com/arquivos/ids/734031-1200-auto?v=638126054620270000&width=1200&height=auto&aspect=true"
                             alt="">
                     </a>
-                </div>
-                <div class="jordans">
+                
+                
                     <a href="">
                         <img src="https://essential.vtexassets.com/arquivos/ids/734073-1200-auto?v=638126054978200000&width=1200&height=auto&aspect=true"
                             alt="">
                     </a>
                 </div>
             </div>
-        </section>
+        </div>
 
 
-        <section class="newsletter-container">
+        <div class="newsletter-container">
            <h3>SUBSCRIBE TO THE NEWSLETTER</h3> 
             <div class="buscador">
                 <input type="email" placeholder="example@gmail.com">
                 <button type="submit">Subscribe</button>
             </div>
-        </section>
-    </div>
-    
+        </div>
+        
+
+
+    <div class="footer-container">
     <footer class="piedepagina">
         <ul class="footer-links">
             <li><a href="index.html">Inicio</a></li>
@@ -112,6 +118,8 @@
             <li><a href="pages/products.html">Products</a></li>
         </ul>
     </footer>
+</div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
