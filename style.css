@@ -642,14 +642,19 @@ form {
   text-align: center;
   width: 60%;
   margin: 0 auto;
+  margin-bottom: 2%;
 }
 
 
 .about-us-text p,.about-us-text h1{
-   font-size: 68px;
+   font-size: 4.25rem;
    text-align: center;
-
 }
+em {
+  font-style: italic;
+}
+
+
 
 .header-aboutus nav, .header-contact nav{
   display: flex;
@@ -660,7 +665,12 @@ form {
 }
 
 
+
+
+
+
 /* responsive design - para mobile */
+
 
 @media only screen and (max-width:1024px){
   .header-page
@@ -674,10 +684,7 @@ form {
     width: 100%;
     
   }
-  .about-us-text p,.about-us-text h1{
-    font-size: 100px;
-    
-  }
+  
   
     .new-products div{
       
@@ -716,6 +723,11 @@ form {
       .carousel-item{
         max-width: 100%;
       }
+      .about-us-text p, .about-us-text h1{
+        font-size:3rem ;
+      }
+     
+
   }
   
 
@@ -958,6 +970,11 @@ form {
    margin-top: 0.5em;
 }
 
+
+.about-us-text p, .about-us-text h1{
+  font-size:2.25rem ;
+}
+
     }
 /* */
 
@@ -1055,6 +1072,10 @@ form {
    .talles {
     width: 95%;
    }
+   
+.about-us-text p, .about-us-text h1{
+  font-size:1.7rem ;
+}
 }
 
 
@@ -1136,5 +1157,8 @@ form {
     margin-top: 2%;
     margin-bottom: 2%;
    }
+   .about-us-text p, .about-us-text h1{
+    font-size:1.5rem ;
+  }
 }
 /* hola */
