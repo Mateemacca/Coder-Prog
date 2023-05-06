@@ -215,11 +215,12 @@ height: 30px;
     height:  120px;
     padding: 10px 0px;
     width: 100%; 
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    
-    
+
 }
+ol, ul {
+  padding-left: 0;
+}
+
 
 .footer-links {
     display: flex;
@@ -271,6 +272,7 @@ height: 30px;
     justify-content: center;
     border-radius: 4px;
     background-color: red;
+    
     /* box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6); */
 }
 
@@ -290,24 +292,25 @@ height: 30px;
 .product-description h2 {
    
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-size:60px;
-   background-color: red;
+   font-size:3.75rem;
+   /* background-color: red; */
    text-align: center;
+   border-bottom: 1px solid #000000;
    
 }
 .product-description h3 {
    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:32px;
-    background-color: blue;
+    font-size:3.125rem;
+    /* background-color: blue; */
     text-align: center;
-    
+    margin-top: 1em;
  }
  .product-text{
   display: flex;
   flex-direction: column;
   margin-top: 0;
-  background-color: green;
+  /* background-color: green; */
  
   position: relative;
   top: 0;
@@ -324,7 +327,7 @@ height: 30px;
 }
 
 .stars-calification label {
-  font-size: 35px;
+  font-size: 2.188rem;
 }
 
 .input-estrella[type="radio"]  {
@@ -356,14 +359,14 @@ input[type="radio"] [name=estrellas]:checked ~ label {
 
 
 .buy-button {
-  padding: 2%;
+  padding: 1.5%;
   width: 100%;
   height: auto;
   background-color: #000000;
   color: #fff;
   border: none;
   border-radius: 5px;
-
+  
   transition: background-color 0.4s;
 }
 
@@ -372,7 +375,7 @@ input[type="radio"] [name=estrellas]:checked ~ label {
   }
 
   .talles {
-    margin-top: 50%;
+    margin-top: 35%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -381,7 +384,7 @@ input[type="radio"] [name=estrellas]:checked ~ label {
   }
 
     .talles h4 {
-        font-size:50px ;
+        font-size:3.125rem ;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
         text-align: center;
         margin-bottom: 10px;
@@ -407,17 +410,23 @@ form {
 
 
 #carouselExampleIndicators img {
-    width: 1.25rem;
-    height:31.25rem;
+    width: 31.25rem;
+    height:auto;
     border-radius: 10px;
     
 }
 
 
-.carousel {
+
+.carousel{
+    margin: 0 auto; /* Esto centra el carrusel horizontalmente */
+  
+    max-width: 35.375rem;
+  }
+  .carousel-index {
     margin: 0 auto; /* Esto centra el carrusel horizontalmente */
     margin-top: 2%;
-    
+    max-width: 35.375rem;
   }
 
 
@@ -582,19 +591,22 @@ form {
     background-color: #292828;
   }
 
-#carouselExample {
-    width: 80%;
-    height: 80%;
-}
+
 
 
 /* styles de contact.html */
 
 
 .contact p, h1{
-    font-size: 90px;
+    font-size: 5.625rem;
     align-items: center;
+   
+}
+.contact {
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
+
 }
 
 
@@ -605,21 +617,26 @@ form {
 
 
 .socials{
-    margin: 70px 0px 70px 0px;
+    margin:4.375rem auto ;
 
 }
 .socials li {
     display: inline;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 3.125rem;
 }
 
 .socials li img {
-    width: 150px;
+    width: 9.375rem;
+}
+.socials-imgs{
+  
+  
+  justify-content: center;
+  align-items: center;
+  
 }
 
-.socials ul li {
-    gap: 500px;
-}
+
 
 .about-us-text{
   text-align: center;
@@ -672,10 +689,42 @@ form {
       margin: 2% auto;
       
     }
+    .product {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      height: 50%;
+  }
+
+       .talles {
+        margin-top: 10%;
+       }
+       #carouselExample {
+        width: 100%;
+       }
+       .product-description {
+       gap: 0.5%;
+       }
+       #carouselExampleIndicators{
+        width:100%;
+        height:100% ;
+      }
+      #carouselExampleIndicators img{
+        width:100%;
+        height:100%;
+      }
+      .carousel-item{
+        max-width: 100%;
+      }
   }
   
 
   /* */
+
+
+
+
+
 
   @media only screen and (max-width:768px){
     /* .container{
@@ -707,15 +756,10 @@ form {
 .piedepagina{
   width: 100%;
   height: 100%;
-
-
-  
 }
 
   .jordans img{
-    
     margin: 5% auto;
-    
   }
   
   
@@ -725,55 +769,108 @@ form {
     width: 65vw;
   }
   
-    .header-page
-      {
+    .header-page{
         max-width: 80%;
         padding: 0 20px;
       }
-    
-      
-        
-      
+  
     .piedepagina{
       width: 100%;
       height: 100%;
-      
     }
-  
-  
+
     .jordans img{
       width: 30rem;
     }
+
       .new-products div{
-        
         padding: 0 20px;
         flex-wrap: wrap;
-        
       }
       /*Display '.muestra-menu' link*/
+
 	.show-menu {
 		display:block;
 	}
+
   .navbar {
 		position: static;
 		display: none;
 	}
+
   li {
 		margin-bottom: 20px;
 	}
+
 	/* crea todo el menu links  ancho full */
 	ul li, li a {
 		width: 100%;
     text-align: center;
 	}
+
   .show-menu {
    margin: 10px 0;
   }
+
   .show-menu:hover {
     margin: 10px 0;
     rotate: 180deg;
    }
-    }
+
+   .socials li  {
+    margin:  0 auto;
+    flex-wrap: wrap;
+    margin: 0px 3.125rem ;
+}
+
+.socials li a img {
+  align-items: center;
+  margin:  0 auto;
+  justify-content: center;
+}
+
+.socials-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* PRODUCT-AJ1 MEDIAQUERIES */
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+   }
+   .talles {
+    margin-top: 5%;
+   }
+   .talles h4 {
+    font-size:2.5rem ;
+    top: 0;
+   }
+   #carouselExample {
+    width: 100%;
+   }
+   .product-description h2 {
+    font-size:2.75rem;
+ }
+ .product-description h3 {
+     font-size:2.125rem;
+     margin-top: 0.5em;
+  }
+   
+
+}
+
+
+
+
+
+
+
+    /* 520px */
     @media only screen and (max-width:520px){
       .carousel-item{
         max-width: 95%;
@@ -815,9 +912,6 @@ form {
   .piedepagina{
     width: 100%;
     height: 100%;
-
-
-    
   }
 
     .jordans img{
@@ -834,11 +928,48 @@ form {
       justify-content: center;
       width: 30%;
     }
+    .contact p, h1{
+      font-size: 3rem;
+      align-items: center;
+     
+  }
+  .contact {
+      text-align: center;
+      width: 100%;
+      margin: 0 auto; 
+   }
+   .socials li a img {
+    margin: 3% auto;
+   }
+   .socials {
+    margin-top: 2%;
+    margin-bottom: 2%;
+   }
+
+   .talles form { 
+    gap: 10px;
+    text-align: center;
+}
+.product-description h2 {
+  font-size:2.25rem;
+}
+.product-description h3 {
+   font-size:2rem;
+   margin-top: 0.5em;
+}
+
     }
 /* */
 
-@media only screen and (max-width:375px)
-{
+
+
+
+
+
+
+
+
+@media only screen and (max-width:375px){
       .carousel-item{
         max-width: 95%;
       }
@@ -879,16 +1010,12 @@ form {
   .piedepagina{
     width: 100%;
     height: 100%;
-
-
-    
   }
 
     .jordans img{
-      
       margin: 5% auto;
-      
     }
+
     .jordans img{
       width: 20rem;
     }
@@ -898,13 +1025,43 @@ form {
       justify-content: center;
       width: 30%;
     }
+    .contact p, h1{
+      font-size: 3rem;
+      align-items: center;
+  }
+
+  .contact {
+      text-align: center;
+      width: 100%;
+      margin: 0 auto; 
+   }
+   .socials li a img {
+    margin: 3% auto;
+   }
+   .socials {
+    margin-top: 2%;
+    margin-bottom: 2%;
+   }
+   .product-description h2 {
+    font-size:2rem;
+  }
+  .product-description h3 {
+     font-size:1.6rem;
+     margin-top: 0.5em;
+  }
+  .talles h4{
+    font-size: 2rem;
+  }
+   .talles {
+    width: 95%;
+   }
 }
 
 
 @media only screen and (max-width:320px)
 {
       .carousel-item{
-        max-width: 90%;
+        max-width: 100%;
       }
 
   nav {
@@ -962,7 +1119,22 @@ form {
       justify-content: center;
       width: 65vw;
     }
-    
+    .contact p, h1{
+      font-size: 3rem;
+      align-items: center;
+     
+  }
+  .contact {
+      text-align: center;
+      width: 100%;
+      margin: 0 auto; 
+   }
+   .socials li a img {
+    margin: 3% auto;
+   }
+   .socials {
+    margin-top: 2%;
+    margin-bottom: 2%;
+   }
 }
-
 /* hola */
