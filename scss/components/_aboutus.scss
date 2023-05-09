@@ -1,0 +1,18 @@
+@import "../base/variables";
+.about-us-text {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 2%;
+	p {
+		font-size: 4.25rem;
+		text-align: center;
+	}
+	h1 {
+		font-size: 4.25rem;
+		text-align: center;
+	}
+}
+em {
+	font-style: italic;
+}

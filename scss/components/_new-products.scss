@@ -1,0 +1,39 @@
+@import "../base/variables";
+
+.new-products {
+	width: 100%;
+	flex-wrap: nowrap;
+	align-items: center;
+	h3 {
+		display: flex;
+		justify-content: center;
+		font-family: $font-family_2;
+		margin-top: 30px;
+		font-style: italic;
+		font-size: 30px;
+	}
+}
+.jordans {
+	img {
+		width: 18.75rem;
+		border: solid black 1.5px;
+		margin: 10px;
+		border-radius: 10px;
+		box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.6);
+		display: flex;
+		justify-content: center;
+		transition: 0.3s cubic-bezier(0.21, 0.89, 0.55, 0.97);
+		&:hover {
+			transform: scale(1.05);
+		}
+	}
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.jordanContainer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	align-items: center;
+}

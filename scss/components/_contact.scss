@@ -1,0 +1,33 @@
+@import "../base/variables";
+
+.contact {
+	p {
+		font-size: 5.625rem;
+		align-items: center;
+	}
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 5.625rem;
+	align-items: center;
+}
+.socials-container {
+	display: flex;
+	justify-content: center;
+}
+.socials {
+	margin: 4.375rem auto;
+	li {
+		display: inline;
+		margin: 0px 3.125rem;
+		img {
+			width: 9.375rem;
+		}
+	}
+}
+.socials-imgs {
+	justify-content: center;
+	align-items: center;
+}
