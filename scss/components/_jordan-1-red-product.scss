@@ -1,5 +1,5 @@
 @import "../base/variables";
-
+@import "../base/extends";
 .product {
 	margin-top: 5%;
 	display: flex;
@@ -93,7 +93,7 @@ input[type="radio"] {
 	width: 100%;
 	height: auto;
 	background-color: #000000;
-	color: $color_6;
+	color: $color_1;
 	border: none;
 	border-radius: 5px;
 	transition: background-color 0.4s;

@@ -1,5 +1,5 @@
 @import "../base/variables";
-
+@import "../base/extends";
 .footer-container {
 	footer {
 		margin: 0 auto;
@@ -9,9 +9,7 @@
 }
 .piedepagina {
 	background-color: black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@extend %flex;
 	bottom: 0;
 	left: 0px;
 	height: 120px;
@@ -25,9 +23,7 @@ ul {
 	padding-left: 0;
 }
 .footer-links {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@extend %flex;
 	list-style: none;
 	gap: 10px;
 	margin-top: 10px;

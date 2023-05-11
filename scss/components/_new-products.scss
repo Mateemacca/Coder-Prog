@@ -1,4 +1,6 @@
 @import "../base/variables";
+@import "../base/extends";
+
 
 .new-products {
 	width: 100%;
@@ -7,7 +9,8 @@
 	h3 {
 		display: flex;
 		justify-content: center;
-		font-family: $font-family_2;
+		// font-family: $font-family_2;
+		font-family: "GT-America-Expanded-Black-Trial", sans-serif; 
 		margin-top: 30px;
 		font-style: italic;
 		font-size: 30px;
@@ -27,9 +30,7 @@
 			transform: scale(1.05);
 		}
 	}
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@extend %flex;
 }
 .jordanContainer {
 	display: flex;

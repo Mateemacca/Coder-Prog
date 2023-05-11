@@ -1,5 +1,5 @@
 @import "../base/variables";
-
+@import "../base/extends";
 //CAROUSEL DEL INDEX
 
 #carouselExampleIndicators {
@@ -37,7 +37,7 @@
 	justify-content: center;
 	width: 15%;
 	padding: 0;
-	color: $color_6;
+	color: $color_1;
 	text-align: center;
 	background: transparent;
 	border: 0;
@@ -51,7 +51,7 @@
 		justify-content: center;
 		width: 15%;
 		padding: 0;
-		color: $color_6;
+		color: $color_1;
 		text-align: center;
 		background: transparent;
 		border: 0;
@@ -90,7 +90,7 @@
 	justify-content: center;
 	width: 15%;
 	padding: 0;
-	color: $color_6;
+	color: $color_1;
 	text-align: center;
 	background: transparent;
 	border: 0;
@@ -104,7 +104,7 @@
 		justify-content: center;
 		width: 15%;
 		padding: 0;
-		color: $color_6;
+		color: $color_1;
 		text-align: center;
 		background: transparent;
 		border: 0;

@@ -1,5 +1,5 @@
 @import "../base/variables";
-
+@import "../base/extends";
 
 /*HEADER GENERAL*/
 * {
@@ -8,21 +8,18 @@
 }
 body {
 	height: auto;
-	background-color: #f5f5f5f1;
+	background-color:$base-bg;
 }
 .page-container {
 	width: 100%;
 	margin: 0 auto;
 }
 .header-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@extend %flex;
 	text-align: center;
 	flex-wrap: wrap;
 }
 .show-menu {
-	font-family: $font-family_1;
 	text-decoration: none;
 	color: $color_1;
 	background: #000000;
@@ -57,9 +54,7 @@ nav {
 	}
 }
 .navbar {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@extend %flex;
 	list-style: none;
 	gap: 10px;
 	margin-top: 10px;
