@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Stretch-Pro";
+  src: url("../fonts/StretchPro.otf");
+}
 .footer-links, .piedepagina, .jordans, .navbar, .header-container {
   display: flex;
   justify-content: center;
@@ -257,6 +261,7 @@ nav {
 }
 .jordans img:hover {
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 .jordanContainer {
@@ -296,7 +301,7 @@ nav {
   transition: 0.3s ease-in-out;
 }
 .buscador button:hover {
-  background-color: white;
+  background-color: rgba(245, 245, 245, 0.9450980392);
   border: none;
   color: black;
   padding: 4px;
@@ -384,7 +389,7 @@ ul {
   width: 50%;
   margin-bottom: 5%;
   border-radius: 5px;
-  margin: 10% auto;
+  margin: 4% auto;
 }
 
 .jordan1red {

@@ -22,7 +22,7 @@
 		font-family: $font-family_2;
 		transition: 0.3s ease-in-out;
 		&:hover {
-			background-color: white;
+			background-color: $base-bg;
 			border: none;
 			color: $color_2;
 			padding: 4px;
