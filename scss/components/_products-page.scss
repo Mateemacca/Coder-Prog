@@ -1,5 +1,7 @@
 @import "../base/variables";
 @import "../base/extends";
+
+
 .product-img-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -47,9 +49,10 @@
 .text-products {
 	h3 {
 		text-align: center;
-		font-family: $font-family_1;
+		font-family: $font-family_5;
 		font-size: 2.5rem;
 		font-style: italic;
+		font-weight: 600;
 		padding: 0.625rem 0;
    	 	letter-spacing: 1vw;
     	text-transform: uppercase;
@@ -79,10 +82,10 @@
 	p {
 		display: flex;
 		justify-content: space-around;
-		font-family: $font-family_1;
+		font-family: $font-family_5;
 		font-stretch: expanded;
     	font-style: normal;
-    	font-weight: 900;
+    	font-weight: 750;
 		font-size: 1.563rem;
 	}
 	h3 {

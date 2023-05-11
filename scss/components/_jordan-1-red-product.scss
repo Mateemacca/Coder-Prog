@@ -1,14 +1,14 @@
 @import "../base/variables";
 @import "../base/extends";
 .product {
-	margin-top: 5%;
-	display: flex;
-	align-items: center;
-	border: 1.5px solid black;
-	width: 70%;
-	margin-bottom: 5%;
-	border-radius: 3px;
-	margin: 5% auto;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    border: 1.5px solid black;
+    width: 50%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    margin: 5% auto;
 }
 .jordan1red {
 	width: 50%;
@@ -19,13 +19,13 @@
 	background-color: red;
 }
 .product-description {
-	flex-direction: column;
-	display: flex;
-	width: 100%;
-	height: 100%;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 	h2 {
 		font-family: $font-family_2;
 		font-size: 3.75rem;
