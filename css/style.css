@@ -40,6 +40,10 @@ body {
   border-radius: 5px;
 }
 
+.menu-aboutus-contact {
+  padding: 2% 5%;
+}
+
 input[type=checkbox] {
   display: none;
 }
