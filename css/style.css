@@ -73,7 +73,7 @@ nav {
   transition: 0.3s all ease-in-out;
   padding: 5px 7px;
   border-radius: 3px;
-  border: 1px solid #a5a5a5;
+  border: 1px solid rgba(48, 48, 48, 0.1058823529);
 }
 .navbar li a:hover {
   text-decoration: none;
