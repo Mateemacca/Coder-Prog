@@ -246,7 +246,7 @@
 }
 @media only screen and (max-width:520px) {
 	.carousel-item {
-		max-width: 95%;
+		max-width: 100%;
 	}
 	nav {
 		flex-direction: column;
@@ -425,10 +425,14 @@
 			font-size: 1.3rem;
 		}
 	}
+	.product {
+    margin: 10% auto;
+
+	}
 }
 @media only screen and (max-width:375px) {
 	.carousel-item {
-		max-width: 95%;
+		max-width: 100%;
 	}
 	nav {
 		flex-direction: column;

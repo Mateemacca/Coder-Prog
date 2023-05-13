@@ -233,6 +233,16 @@ nav {
   border: 0;
 }
 
+#carouselExample {
+  width: 70%;
+  margin: auto 0;
+}
+
+.w-85 {
+  width: 85% !important;
+  margin: 0 auto;
+}
+
 .footer-links, .piedepagina, .jordans, .header-container, .navbar {
   display: flex;
   justify-content: center;
@@ -386,14 +396,14 @@ ul {
 }
 
 .product {
-  margin-top: 5%;
   display: flex;
   align-items: center;
   border: 1.5px solid black;
-  width: 50%;
+  width: 55%;
   margin-bottom: 5%;
   border-radius: 5px;
-  margin: 4% auto;
+  margin: 5% auto;
+  background-color: white;
 }
 
 .jordan1red {
@@ -934,7 +944,7 @@ em {
 }
 @media only screen and (max-width: 520px) {
   .carousel-item {
-    max-width: 95%;
+    max-width: 100%;
   }
   nav {
     flex-direction: column;
@@ -1097,10 +1107,13 @@ em {
   .product-name p {
     font-size: 1.3rem;
   }
+  .product {
+    margin: 10% auto;
+  }
 }
 @media only screen and (max-width: 375px) {
   .carousel-item {
-    max-width: 95%;
+    max-width: 100%;
   }
   nav {
     flex-direction: column;

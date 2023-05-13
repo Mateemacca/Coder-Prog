@@ -1,14 +1,15 @@
 @import "../base/variables";
 @import "../base/extends";
 .product {
-    margin-top: 5%;
+    // margin-top: 35%;
     display: flex;
     align-items: center;
     border: 1.5px solid black;
-    width: 50%;
+    width: 55%;
     margin-bottom: 5%;
     border-radius: 5px;
-    margin: 4% auto;
+    margin: 5% auto;
+	background-color: #ffff;
 }
 .jordan1red {
 	width: 50%;
