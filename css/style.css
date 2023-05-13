@@ -939,7 +939,7 @@ em {
     align-items: center;
   }
   .buy-button-products {
-    padding: 0.5rem 6rem;
+    padding: 0.5rem 6.1rem;
   }
 }
 @media only screen and (max-width: 520px) {
@@ -953,6 +953,13 @@ em {
     margin-top: 10px;
     margin-bottom: 10px;
     align-items: center;
+  }
+  .product-img-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "foto-1" "foto-2" "foto-3" "foto-4" "foto-5" "foto-6" "foto-7" "foto-8" "foto-9";
+    gap: 0.4%;
+    margin-bottom: 12rem;
   }
   #carouselExampleIndicators {
     width: 95%;
@@ -1023,86 +1030,86 @@ em {
     font-size: 2.25rem;
   }
   .foto-1 {
-    width: 10rem;
+    width: 25rem;
   }
   .foto-2 {
-    width: 10rem;
+    width: 25rem;
   }
   .foto-3 {
-    width: 10rem;
+    width: 25rem;
   }
   .foto-4 {
-    width: 10rem;
+    width: 25rem;
   }
   .foto-5 {
-    width: 10rem;
+    width: 25rem;
   }
   .foto-6 {
-    width: 10rem;
+    width: 25rem;
   }
   .foto-7 {
-    width: 10rem;
+    width: 25rem;
   }
   .foto-8 {
-    width: 10rem;
+    width: 25rem;
   }
   .foto-9 {
-    width: 10rem;
+    width: 25rem;
   }
   .product-div {
     justify-content: center;
     align-items: center;
     padding-bottom: 0;
-    width: 13rem;
+    width: 26rem;
   }
   .product-div a {
     justify-content: center;
     align-items: center;
   }
   .buy-button-products {
-    padding: 0.5rem 5.5rem;
+    padding: 0.5rem 11.5rem;
   }
 }
 @media only screen and (max-width: 425px) {
   .foto-1 {
-    width: 9rem;
+    width: 20rem;
   }
   .foto-2 {
-    width: 9rem;
+    width: 20rem;
   }
   .foto-3 {
-    width: 9rem;
+    width: 20rem;
   }
   .foto-4 {
-    width: 9rem;
+    width: 20rem;
   }
   .foto-5 {
-    width: 9rem;
+    width: 20rem;
   }
   .foto-6 {
-    width: 9rem;
+    width: 20rem;
   }
   .foto-7 {
-    width: 9rem;
+    width: 20rem;
   }
   .foto-8 {
-    width: 9rem;
+    width: 20rem;
   }
   .foto-9 {
-    width: 9rem;
+    width: 20rem;
   }
   .product-div {
     justify-content: center;
     align-items: center;
     padding-bottom: 0;
-    width: 12rem;
+    width: 22rem;
   }
   .product-div a {
     justify-content: center;
     align-items: center;
   }
   .buy-button-products {
-    padding: 0 5rem;
+    padding: 0 10rem;
   }
   .product-name p {
     font-size: 1.3rem;
@@ -1200,34 +1207,34 @@ em {
     gap: 0.4%;
   }
   .foto-1 {
-    width: 19rem;
+    width: 18rem;
   }
   .foto-2 {
-    width: 19rem;
+    width: 18rem;
   }
   .foto-3 {
-    width: 19rem;
+    width: 18rem;
   }
   .foto-4 {
-    width: 19rem;
+    width: 18rem;
   }
   .foto-5 {
-    width: 19rem;
+    width: 18rem;
   }
   .foto-6 {
-    width: 19rem;
+    width: 18rem;
   }
   .foto-7 {
-    width: 19rem;
+    width: 18rem;
   }
   .foto-8 {
-    width: 19rem;
+    width: 18rem;
   }
   .foto-9 {
-    width: 19rem;
+    width: 18rem;
   }
   .product-div {
-    width: 21rem;
+    width: 20rem;
     justify-content: center;
     align-items: center;
     padding-bottom: 0;
@@ -1237,10 +1244,10 @@ em {
     align-items: center;
   }
   .buy-button-products {
-    padding: 0.5rem 9.5rem;
+    padding: 0.5rem 9rem;
   }
   .products-container {
-    margin-bottom: 12rem;
+    margin-bottom: 0rem;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -1313,43 +1320,43 @@ em {
     font-size: 1.5rem;
   }
   .foto-1 {
-    width: 15rem;
+    width: 18rem;
   }
   .foto-2 {
-    width: 15rem;
+    width: 18rem;
   }
   .foto-3 {
-    width: 15rem;
+    width: 18rem;
   }
   .foto-4 {
-    width: 15rem;
+    width: 18rem;
   }
   .foto-5 {
-    width: 15rem;
+    width: 18rem;
   }
   .foto-6 {
-    width: 15rem;
+    width: 18rem;
   }
   .foto-7 {
-    width: 15rem;
+    width: 18rem;
   }
   .foto-8 {
-    width: 15rem;
+    width: 18rem;
   }
   .foto-9 {
-    width: 15rem;
+    width: 18rem;
   }
   .product-div {
-    width: 17rem;
+    width: 19rem;
     justify-content: center;
     align-items: center;
     padding-bottom: 0;
   }
   .buy-button-products {
-    padding: 0.5rem 7.5rem;
+    padding: 0.5rem 8rem;
   }
   .products-container {
-    margin-bottom: 12rem;
+    margin-bottom: 0rem;
   }
 }
 
