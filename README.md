@@ -1,4 +1,4 @@
-<h1 align="center">Hola 👋, Yo soy Mateo Maccarone❗</h1>
+<h1 align="center">Hola 👋, soy Mateo Maccarone❗</h1>
 <h3 align="center">Estudiante secundario y futuro fullstack developer.</h3>
 
 - 🔭 Hice una pagina modelo de venta de Sneakers [SNKRS](https://mateemacca.github.io/Coder-Prog/index.html)
