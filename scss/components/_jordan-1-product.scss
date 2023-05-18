@@ -1,15 +1,18 @@
 @import "../base/variables";
 @import "../base/extends";
 .product {
-    // margin-top: 35%;
     display: flex;
     align-items: center;
-    border: 1.5px solid black;
+    /* border: 1.5px solid black; */
     width: 55%;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     border-radius: 5px;
-    margin: 5% auto;
-	background-color: #ffff;
+    margin: 8% auto;
+    /* background-color: white; */
+	
+	mix-blend-mode: multiply;
+
+
 }
 .jordan1red {
 	width: 50%;
@@ -29,23 +32,34 @@
     position: relative;
 	h2 {
 		font-family: $font-family_2;
-		font-size: 3.75rem;
+		font-size: 2.75rem;
 		text-align: center;
 		border-bottom: 1px solid #000000;
 	}
 	h3 {
 		font-family: $font-family_2;
-		font-size: 3.125rem;
+		font-size: 2.125rem;
 		text-align: center;
 		margin-top: 1em;
 	}
+	
 }
+
 .product-text {
 	display: flex;
 	flex-direction: column;
 	margin-top: 0;
 	position: relative;
 	top: 0;
+	
+	// p{
+		
+	// 	font-size: 1.125rem;
+	// 	font-family: $font-family_3;
+	// 	text-align: center;
+	// 	margin-bottom: 10px;
+		
+	// }
 }
 .stars-calification {
 	width: 100%;
@@ -103,17 +117,26 @@ input[type="radio"] {
 	}
 }
 .talles {
-	margin-top: 35%;
+	margin-top: 5%;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 20px;
 	h4 {
-		font-size: 3.125rem;
+		font-size: 2.125rem;
 		font-family: $font-family_3;
 		text-align: center;
 		margin-bottom: 10px;
+	}
+}
+.product-text-fees{
+	p{
+		margin-top: 5%;
+		
+		font-family: $font-family_3;
+		text-align: center;
+		margin-bottom: 1%;
 	}
 }
 form {
@@ -123,3 +146,35 @@ form {
 	flex-direction: row;
 	justify-content: center;
 }
+
+// .carousel-item {
+// 	img{
+//     mix-blend-mode: multiply !important;
+// 	    }
+// }
+
+// .foto-aj1-red {
+// 	img{
+//     mix-blend-mode: multiply !important;
+// 	    }
+// }
+
+.w-85 {
+	mix-blend-mode: multiply !important;
+}
+
+// .carousel-item-next{
+// 	img{
+// 		mix-blend-mode: multiply !important;
+// 			}
+// } 
+
+// .carousel-item-start{
+// 	img{
+// 		mix-blend-mode: multiply !important;
+// 			}
+// }
+// .carousel-item-end{
+// 	img{
+// 		mix-blend-mode: multiply !important;
+// 			}
