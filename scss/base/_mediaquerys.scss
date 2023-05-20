@@ -244,7 +244,8 @@
 		padding-bottom: 0;
 	}
 	.buy-button-products {
-		padding: 0.5rem 6.1rem;
+		width: 100%;
+		font-size: 14px;
 	}
 }
 @media only screen and (max-width:520px) {
@@ -387,7 +388,8 @@
 		width: 26rem;
 	}
 	.buy-button-products {
-		padding: 0.5rem 11.5rem;
+		padding: 1rem 0;
+		width: 100%;
 	}
 	
 	.product-text-fees{
@@ -433,7 +435,8 @@
 		width: 22rem;
 	}
 	.buy-button-products {
-		padding: 0 10rem;
+		padding: 1rem 0;
+		width: 100%;
 	}
 	.product-name {
 		p {
@@ -443,6 +446,9 @@
 	.product {
     margin: 10% auto;
 
+	}
+	#myToast{
+		width: 100%;
 	}
 }
 @media only screen and (max-width:375px) {
@@ -583,10 +589,14 @@
 		padding-bottom: 0;
 	}
 	.buy-button-products {
-		padding: 0.5rem 9rem;
+		padding: 1rem 0;
+		width: 100%;
 	}
 	.products-container {
 		margin-bottom: 0rem;
+	}
+	#myToast{
+		width: 95%;
 	}
 }
 @media only screen and (max-width:320px) {
@@ -705,7 +715,8 @@
 		padding-bottom: 0;
 	}
 	.buy-button-products {
-		padding: 0.5rem 8rem;
+		padding: 1rem 0;
+		width: 100%;
 	}
 	.products-container {
 		margin-bottom: 0rem;
@@ -722,4 +733,7 @@
 		transition: background-color 0.4s ease 0s;
 	}
 	
+	#myToast{
+		width: 90%;
+	}
 }

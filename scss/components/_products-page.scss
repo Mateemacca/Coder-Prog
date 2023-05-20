@@ -98,7 +98,7 @@
 	}
 }
 .buy-button-products {
-	padding: 0.625rem 5.625rem;
+	padding: 0.625rem 4.625rem;
 	background-color: #000000;
 	color: $color_1;
 	border: none;
@@ -109,6 +109,27 @@
 	left: 50%;
 	transform: translateX(-50%);
 	&:hover {
-		background-color: #292828;
+		background-color: #1e1d1d;
 	}
+}
+
+
+.w-90{
+	width: 90%;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
 }
