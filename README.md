@@ -1,7 +1,7 @@
 <h1 align="center">Hola 👋, soy Mateo Maccarone❗</h1>
 <h3 align="center">Estudiante secundario y futuro fullstack developer.</h3>
 
-- 🔭 Hice una pagina modelo de venta de Sneakers [SNKRS](https://mateemacca.github.io/Coder-Prog/index.html)
+- 🔭 Hice una pagina modelo de venta de Sneakers [SNKRS](https://mateemacca.github.io/PF-Maccarone/)
 
 - 🌱 Estoy aprendiendo/estudiando **Javascript, Frontend & Backend**
 
